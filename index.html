@@ -1,29 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Din Chanmey | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="education.html">Education</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+  <div class="navbar">
+    <div class="logo">Din Chanmey</div>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 </nav>
 
-<section class="container">
-    <img src="https://via.placeholder.com/150" class="profile">
-    <h1>Din Chanmey</h1>
-    <p>Hello! I am a student learning web development and project management.</p>
-</section>
+<div class="container">
+
+  <div class="hero">
+    <div class="card hero-left">
+      <span class="badge">👋 Welcome to my portfolio</span>
+      <h1>IT Student • Web Developer (Beginner)</h1>
+      <p>
+        This website introduces my profile, education, skills, and projects.
+        It is also my Software Project Management assignment with planning, WBS, and reporting.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="projects.html">View Projects</a>
+        <a class="btn" href="contact.html">Contact Me</a>
+      </div>
+
+      <div style="margin-top:16px">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">GitHub</span>
+      </div>
+    </div>
+
+    <div class="card hero-right">
+      <img class="profile" src="https://via.placeholder.com/600x600.png?text=Profile+Photo" alt="Profile photo">
+      <div class="quick">
+        <div class="stat">
+          <div class="k">University</div>
+          <div class="v">Your University</div>
+        </div>
+        <div class="stat">
+          <div class="k">Program</div>
+          <div class="v">IT / CS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="item">
+      <h3>About Me</h3>
+      <p>My background, objective, and interests.</p>
+    </div>
+    <div class="item">
+      <h3>Skills</h3>
+      <p>Technical and soft skills with level indicators.</p>
+    </div>
+    <div class="item">
+      <h3>Projects</h3>
+      <p>My academic projects and technologies used.</p>
+    </div>
+  </div>
+
+</div>
 
 <footer>
-    <p>© 2026 DinChanmey</p>
+  © 2026 Din Chanmey • Built with HTML/CSS/JS
 </footer>
 
 </body>
